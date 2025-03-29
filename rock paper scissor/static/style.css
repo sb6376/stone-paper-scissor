@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f8b500, #fceabb);
+    color: #333;
+}
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+button:hover {
+    transform: scale(1.2);
+}
+button img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.choice {
+    font-size: 28px;
+    font-weight: bold;
+}
+.result {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ff5733;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+#reset-game, #remove-score {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+#reset-game:hover {
+    background-color: #ff5733;
+}
+#remove-score:hover {
+    background-color: #ff0000;
+}
